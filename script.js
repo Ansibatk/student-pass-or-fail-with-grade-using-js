@@ -1,8 +1,7 @@
 function studentGrade()
 {
  let input=document.querySelector("#grade-input").value;
- let box=document.getElementById("box")
- let h2Tag=document.getElementById("display-grade")
+ let h2Tag=document.getElementById("display-grade");
  if(input>=90)
  {
     h2Tag.textContent =("passed with Grade A+");
